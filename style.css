@@ -6,13 +6,13 @@
 @media only screen and (max-width: 1400px) {
     .res {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: wrap !important;
     }
 }
 
 @media only screen and (max-width: 1400px) {
     .ress {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: wrap !important;
     }
 }   

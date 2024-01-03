@@ -10,64 +10,66 @@
     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./style.css">
 </head>
+
 
 <body class="bg-[#73c7b9] h-fit">
   <div class="container mx-auto p-4 flex item-center justify-center w-[100%] h-[100%]">
     <div class="w-[70%] h-[31.25rem] mt-10">
-      <div class="flex-wrap md:flex md:flex-nowrap items-center justify-between gap-5">
-      <div
-        class="w-full lg:w-[90%] h-[350px] rounded-xl text-center bg-gradient-to-tl from-[#5396b0] via-[#5282b0] to-[#5376ae] mt-5 md:pt-5 sm:h-[340px] sm:pt-5 pt-5">
-        <h1 class="text-md md:mt-0 text-white md:text-2xl lg:text-xl font-sans sm:text-xl">LOCAL WEATHER
-          REPORT</h1>
-        <hr class="w-4/5 h-[2px] md:h-1 bg-white rounded-xl mt-3 mx-auto sm:h-[2px]">
-        <div class="flex w-full h-[75%] lg:h-[80%] ml-6 mt-5 md:flex-wrap sm:flex-nowrap">
-          <div class="md:w-[50%] sm:w-[45%] w-[45%]">
-            <img class="md:mt-7 md:mb-6 mx-auto w-29 h-32 sm:32 sm:h-36 sm:mt-3" src="./sun2.png" alt="">
-            <span class="font-sans text-[13px] font-bold text-white sm:text-xl">14 KM/H SW</span>
-          </div>
-          <div class="w-[50%] md:w-[50%] sm:w-[320px] text-center mt-2 md:mt-5 sm:mt-3">
-            <h1 class="text-xl md:text-3xl font-sans font-medium text-white sm:text-2xl">SUNDAY</h1>
-            <h3 class="text-md md:text-xl font-sans font-medium text-white mt-3 sm:text-xl">SUNNY</h3>
-            <div class="mt-5 sm:mt-[55px]">
-              <h1 class="text-xl md:text-3xl font-sans font-medium text-white sm:text-2xl">22ºC</h1>
-              <h3 class="text-xl md:text-3xl font-sans font-medium text-white mt-1 sm:text-2xl">71.6 º F</h3>
+      <div class="res flex-wrap md:flex md:flex-nowrap items-center justify-between gap-5">
+        <div
+          class="w-full lg:w-[90%] h-[350px] rounded-xl text-center bg-gradient-to-tl from-[#5396b0] via-[#5282b0] to-[#5376ae] mt-5 md:pt-5 sm:h-[340px] sm:pt-5 pt-5">
+          <h1 class="text-md md:mt-0 text-white md:text-2xl lg:text-xl font-sans sm:text-xl">LOCAL WEATHER
+            REPORT</h1>
+          <hr class="w-4/5 h-[2px] md:h-1 bg-white rounded-xl mt-3 mx-auto sm:h-[2px]">
+          <div class="flex w-full h-[75%] lg:h-[80%] ml-6 mt-5 md:flex-wrap sm:flex-nowrap">
+            <div class="md:w-[50%] sm:w-[45%] w-[45%]">
+              <img class="md:mt-7 md:mb-6 mx-auto w-29 h-32 sm:32 sm:h-36 sm:mt-3" src="./sun2.png" alt="">
+              <span class="font-sans text-[13px] font-bold text-white sm:text-xl">14 KM/H SW</span>
+            </div>
+            <div class="w-[50%] md:w-[50%] sm:w-[320px] text-center mt-2 md:mt-5 sm:mt-3">
+              <h1 class="text-xl md:text-3xl font-sans font-medium text-white sm:text-2xl">SUNDAY</h1>
+              <h3 class="text-md md:text-xl font-sans font-medium text-white mt-3 sm:text-xl">SUNNY</h3>
+              <div class="mt-5 sm:mt-[55px]">
+                <h1 class="text-xl md:text-3xl font-sans font-medium text-white sm:text-2xl">22ºC</h1>
+                <h3 class="text-xl md:text-3xl font-sans font-medium text-white mt-1 sm:text-2xl">71.6 º F</h3>
+              </div>
             </div>
           </div>
         </div>
+        <div
+          class="w-full lg:w-[90%] h-[350px] rounded-xl text-center bg-gradient-to-tl from-[#5396b0] via-[#5282b0] to-[#5376ae] mt-5 sm:pt-2 md:pt-2 pt-[2px]">
+          <h1 class="text-md md:mt-0 text-white md:text-xl font-sans mt-5">LOCAL WEATHER REPORT</h1>
+          <hr class="w-5/6 h-[2px] md:h-1 bg-white rounded-xl mt-3 mx-auto sm:h-[2px]">
+          <span
+            class="text-[9px] ml-3 flex md:text-xl mt-3 md:ml-9 font-medium font-sans text-white md:gap-2 sm:text-sm">WIND
+            SPEED (KNOTS) <h1>........................................</h1> 13</span>
+          <span
+            class="text-[9px] ml-3 flex md:text-xl mt-1 md:ml-9 font-medium font-sans text-white md:gap-2 sm:text-sm">WIND
+            GUSTS (KNOTS) <h1>.......................................</h1> 14</span>
+          <span
+            class="text-[9px] ml-3 flex md:text-xl mt-1 md:ml-9 font-medium font-sans text-white md:gap-2 sm:text-sm">WIND
+            DIRECTION <h1>................................................</h1> SW</span>
+          <span
+            class="text-[9px] ml-3 flex md:text-xl mt-1 md:ml-9 font-medium font-sans text-white md:gap-2 sm:text-sm">WAVE
+            (M) <h1>.............................................................</h1> 2.2</span>
+          <span
+            class="text-[9px] ml-3 flex md:text-xl mt-1 md:ml-9 font-medium font-sans text-white md:gap-2 sm:text-sm">WAVE
+            PERIOD (5) <h1>................................................</h1> 12</span>
+          <span
+            class="text-[9px] ml-3 flex md:text-xl mt-2 md:ml-9 font-medium font-sans text-white md:gap-2 sm:text-sm">WAVE
+            DIRECTION <h1>................................................</h1> SW</span>
+          <span
+            class="text-[9px] ml-3 flex md:text-xl mt-2 md:ml-9 font-medium font-sans text-white md:gap-2 sm:text-sm">TEMPERATURE
+            (ºC) <h1>.............................................</h1> 23</span>
+          <span
+            class="text-[9px] ml-3 flex md:text-xl mt-2 md:ml-9 font-medium font-sans text-white md:gap-2 sm:text-sm">CLOUD
+            COVER (%) <h1>..............................................</h1> -</span>
+        </div>
       </div>
       <div
-        class="w-full lg:w-[90%] h-[350px] rounded-xl text-center bg-gradient-to-tl from-[#5396b0] via-[#5282b0] to-[#5376ae] mt-5 sm:pt-2 md:pt-2 pt-[2px]">
-        <h1 class="text-md md:mt-0 text-white md:text-xl font-sans mt-5">LOCAL WEATHER REPORT</h1>
-        <hr class="w-5/6 h-[2px] md:h-1 bg-white rounded-xl mt-3 mx-auto sm:h-[2px]">
-        <span
-          class="text-[9px] ml-3 flex md:text-xl mt-3 md:ml-9 font-medium font-sans text-white md:gap-2 sm:text-sm">WIND
-          SPEED (KNOTS) <h1>........................................</h1> 13</span>
-        <span
-          class="text-[9px] ml-3 flex md:text-xl mt-1 md:ml-9 font-medium font-sans text-white md:gap-2 sm:text-sm">WIND
-          GUSTS (KNOTS) <h1>.......................................</h1> 14</span>
-        <span
-          class="text-[9px] ml-3 flex md:text-xl mt-1 md:ml-9 font-medium font-sans text-white md:gap-2 sm:text-sm">WIND
-          DIRECTION <h1>................................................</h1> SW</span>
-        <span
-          class="text-[9px] ml-3 flex md:text-xl mt-1 md:ml-9 font-medium font-sans text-white md:gap-2 sm:text-sm">WAVE
-          (M) <h1>.............................................................</h1> 2.2</span>
-        <span
-          class="text-[9px] ml-3 flex md:text-xl mt-1 md:ml-9 font-medium font-sans text-white md:gap-2 sm:text-sm">WAVE
-          PERIOD (5) <h1>................................................</h1> 12</span>
-        <span
-          class="text-[9px] ml-3 flex md:text-xl mt-2 md:ml-9 font-medium font-sans text-white md:gap-2 sm:text-sm">WAVE
-          DIRECTION <h1>................................................</h1> SW</span>
-        <span
-          class="text-[9px] ml-3 flex md:text-xl mt-2 md:ml-9 font-medium font-sans text-white md:gap-2 sm:text-sm">TEMPERATURE
-          (ºC) <h1>.............................................</h1> 23</span>
-        <span
-          class="text-[9px] ml-3 flex md:text-xl mt-2 md:ml-9 font-medium font-sans text-white md:gap-2 sm:text-sm">CLOUD
-          COVER (%) <h1>..............................................</h1> -</span>
-      </div>
-      </div>
-      <div
-        class="flex-wrap h-[1950px] md:flex-nowrap w-full rounded-xl md:h-[400px] mt-10 bg-gradient-to-tl from-[#52adad] via-[#539eaa] to-[#5287af] flex gap-5 items-center">
+        class="ress flex-wrap h-[1950px] md:flex-nowrap w-full rounded-xl md:h-[400px] mt-10 bg-[#73c7b9] flex gap-5 items-center">
         <div class="w-full md:w-[100%] text-center h-[330px] md:h-[330px] mt-5 md:border-r-2 border-white">
           <h1 class="text-2xl font-medium font-sans text-white">MONDAY</h1>
           <div class="w-[100%] mt-8 flex items-center justify-center">
